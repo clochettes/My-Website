@@ -14,7 +14,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+    body{
+        margin: 0;
+        
+    }
     header ul{
 
         justify-content: space-between;
@@ -31,27 +34,54 @@
 
     .card{
         background-color: rgb(133, 136, 135) ;
-        box-shadow: 1px 1px 1px red;
+        box-shadow: 1px 1px 10px rgb(177, 177, 177);
         height: 650px;
-        width: auto;
+        width: 500px;
+        border-radius: 15px;
         display: flex;
         flex-direction: column ;
         align-items: center;
         justify-content: center;
     }
-    .card img {
+    .card .pfp {
         align-items: center;
         justify-content: center;
-        width: 124px;
+        width: 164px;
+        border: 2px solid rgba(245, 222, 179, 0);
         border-radius: 50%;
+        
+        filter: drop-shadow(1px 1px 10px rgb(71, 71, 71));
+    }
+    .card .pfp:hover{
+        border: 2px solid white;
+        filter: drop-shadow(1px 1px 10px white);
+    }
+    .language{
+        width: 32px;
+        border-radius: 5px;
     }
 
+    .largerFont{
+        font-size: xx-large;
+    }
+    .mediumFont{
+        font-size: larger;
+    }
     .desktop{
         visibility: visible;
     }
 
     .flex{
         display: flex;
+    }
+    .shortSpace{
+        margin-top: 10px;
+    }
+    .center{
+        align-items: center;
+    }
+    .column{
+        flex-direction: column;
     }
     .row {
         flex-direction: row;
