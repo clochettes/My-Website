@@ -1,37 +1,59 @@
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-        
+    .desktop{
+        visibility: hidden;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+    .desktop{
+        visibility: hidden;
+    }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    
-    main{
-        display: flex;
+
+    header ul{
+
+        justify-content: space-between;
+    }
+    .about{
+        height: 700px;
         flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(88, 92, 91);
     }
-    main .left{
-        display: flex;    
-    }
-    main .right{
-        display: flex;
-    }
-    .card{
-        display: flex;
-        flex-direction: column ;
-    }
-    .card img {
-        width: 64px;
+    .left{
+        align-items: center;
     }
 
+    .card{
+        background-color: rgb(133, 136, 135) ;
+        box-shadow: 1px 1px 1px red;
+        height: 650px;
+        width: auto;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .card img {
+        align-items: center;
+        justify-content: center;
+        width: 124px;
+        border-radius: 50%;
+    }
+
+    .desktop{
+        visibility: visible;
+    }
+
+    .flex{
+        display: flex;
+    }
+    .row {
+        flex-direction: row;
+    }
 }
