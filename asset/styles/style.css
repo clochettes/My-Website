@@ -81,9 +81,23 @@
         border-radius: 5px;
     }
 
+    .right{
+        align-items: center;
+    }
+    .project{
+        height: 650px;
+        width: 500px;
+        border-radius: 15px;
+        background-color: rgb(133, 136, 135) ;
+        box-shadow: -1px 1px 10px rgb(204, 204, 204);
+    }
+
     .projectCase{
-        background-color: rgb(133, 136, 135);
+        background-color: rgb(173, 173, 173);
         box-shadow: 1px 1px 10px rgb(204, 204, 204);
+        border-radius: 15px;
+        width: 90%;
+        
     }
     .projectImg{
         width: 84px;
@@ -113,6 +127,12 @@ STATES STYLES
     }
     .flex{
         display: flex;
+    }
+    .mediumSpace{
+        margin-top: 20px;
+    }
+    .leftSpace{
+        margin-left: 10px ;
     }
     .shortSpace{
         margin-top: 10px;
