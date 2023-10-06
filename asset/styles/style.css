@@ -18,10 +18,30 @@
         margin: 0;
         
     }
-    header ul{
-
-        justify-content: space-between;
+    header{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-top: 0;
+        z-index: 6;
+        filter: drop-shadow(0px 5px 5px #00000056);
     }
+    header ul{
+        justify-content: space-between;
+        align-items: center;
+    }
+    header a {
+        justify-content: space-between;
+        align-items: center;
+
+        width: 300px;
+    }
+    .void{
+        height: 71px;
+    }
+    main{
+        margin-bottom: 1000px;
+    }
+
     .about{
         height: 700px;
         flex-direction: row;
@@ -34,7 +54,7 @@
 
     .card{
         background-color: rgb(133, 136, 135) ;
-        box-shadow: 1px 1px 10px rgb(177, 177, 177);
+        box-shadow: 1px 1px 10px rgb(204, 204, 204);
         height: 650px;
         width: 500px;
         border-radius: 15px;
@@ -61,8 +81,29 @@
         border-radius: 5px;
     }
 
+    .projectCase{
+        background-color: rgb(133, 136, 135);
+        box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    }
+    .projectImg{
+        width: 84px;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+
+
+/*
+STATES STYLES
+*/
+    .fixed{
+        position: fixed;
+        
+    }
     .largerFont{
         font-size: xx-large;
+    }
+    .largeFont{
+        font-size: x-large;
     }
     .mediumFont{
         font-size: larger;
@@ -70,7 +111,6 @@
     .desktop{
         visibility: visible;
     }
-
     .flex{
         display: flex;
     }
