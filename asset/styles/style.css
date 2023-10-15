@@ -147,4 +147,7 @@ STATES STYLES
   li {
     list-style: none;
   }
+  .azd {
+    display: block;
+  }
 }
