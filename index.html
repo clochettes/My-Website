@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="asset/styles/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header class="fixed">
-    <ul class="row desktop flex">
-      <div>
-        <a class="largerFont ">Clochettes.me</a>
-      </div>
-      <div class="row flex">
-        <a class="mediumFont">index 1</a>
-        <a class="mediumFont">index 2</a>
-        <a class="mediumFont">index 3</a>
-      </div>
-    </ul>
-  </header>
-  <div class="void flex"></div>
-  <main>
-    <div class="about flex">
-      <div class="left flex">
-        <div class="card ">
-          <img class="flex pfp" src="asset/img/146101928.png">
-          <a class="largerFont">Charlie</a>
-          <div class="shortSpace column flex center">
-            <a class="mediumFont">Langages maîtrisés</a>
-            <div class="shortSpace row flex">
-              <img class="language" src="asset/img/js.png">
-              <img class="language" src="asset/img/html.png">
-              <img class="language" src="asset/img/css.png">
-              <img class="language" src="asset/img/php.png">
-              <img class="language" src="asset/img/python.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="fixed">
+      <ul class="row desktop flex">
+        <div>
+          <a class="largerFont">Clochettes.me</a>
+        </div>
+        <div class="row flex">
+          <a class="mediumFont">About</a>
+          <a class="mediumFont">Socials</a>
+          <a class="mediumFont">Extra</a>
+        </div>
+      </ul>
+    </header>
+    <div class="void flex"></div>
+    <main>
+      <div class="about flex">
+        <div class="left flex">
+          <div class="card">
+            <img class="flex pfp" src="asset/img/pfp.jpg" />
+            <a class="largerFont">Charlie</a>
+            <div class="shortSpace column flex center">
+              <a class="mediumFont">Langages maîtrisés</a>
+              <div class="shortSpace row flex">
+                <img class="language" src="asset/img/js.png" />
+                <img class="language" src="asset/img/html.png" />
+                <img class="language" src="asset/img/css.png" />
+                <img class="language" src="asset/img/php.png" />
+                <img class="language" src="asset/img/python.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right flex">
+          <div class="project column">
+            <div class="mediumSpace leftSpace flex">
+              <a class="largeFont">Mes projets actuels :</a>
+            </div>
+            <div class="flex center column mediumSpace">
+              <div class="projectCase mediumSpace flex" onclick="">
+                <!--
+                  DEFINE ONCLICK EVENT TO REDIRECT TO THE PROJECT !!!
+                -->
+                <img
+                  class="projectImg"
+                  src="https://media.discordapp.net/attachments/1121258432398381146/1142095457187807272/Logo_Osint_DB_11.jpg?ex=65294d48&is=6516d848&hm=071c1f4aaf6560526825a5968cec595d880f661b5f9f7379d35792b69647a779&=&width=670&height=670"
+                />
+                <ul>
+                  <a>Osint-DB</a>
+                  <li>
+                    <a>click to preview</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="projectCase mediumSpace flex">
+                <img
+                  class="projectImg"
+                  src="https://media.discordapp.net/attachments/1121258432398381146/1142095457187807272/Logo_Osint_DB_11.jpg?ex=65294d48&is=6516d848&hm=071c1f4aaf6560526825a5968cec595d880f661b5f9f7379d35792b69647a779&=&width=670&height=670"
+                />
+                <ul>
+                  <a>Rimbo!</a>
+                  <li>
+                    <a>there is no preview for this project</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="right  flex">
-        <div class="project column ">
-          <div class="mediumSpace leftSpace flex">
-
-            <a class="largeFont ">Mes projets actuels :</a>
-          </div>
-          <div class="flex center column mediumSpace">
-              <div class="projectCase" onclick="">
-                <!--
-                  DEFINE ONCLICK EVENT TO REDIRECT TO THE PROJECT !!!
-                -->
-                <img class="projectImg" src="https://media.discordapp.net/attachments/1121258432398381146/1142095457187807272/Logo_Osint_DB_11.jpg?ex=65294d48&is=6516d848&hm=071c1f4aaf6560526825a5968cec595d880f661b5f9f7379d35792b69647a779&=&width=670&height=670">
-                <a>Osint-DB</a>
-                <a>click to preview</a>
-              </div>
-              <div class="projectCase mediumSpace">
-                <img class="projectImg" src="https://media.discordapp.net/attachments/1121258432398381146/1142095457187807272/Logo_Osint_DB_11.jpg?ex=65294d48&is=6516d848&hm=071c1f4aaf6560526825a5968cec595d880f661b5f9f7379d35792b69647a779&=&width=670&height=670">
-                <a>Rimbo!</a>
-                <a>there is no preview for this project</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="socials">
-      
-    </div>
-
-  </main>
-
-</body>
+      <div class="socials"></div>
+    </main>
+  </body>
 </html>
